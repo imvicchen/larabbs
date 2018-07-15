@@ -5,8 +5,8 @@ namespace App\Http\Controllers\Api;
 use App\Models\User;
 use App\Models\Image;
 use Illuminate\Http\Request;
-use App\Http\Requests\Api\UserRequest;
 use App\Transformers\UserTransformer;
+use App\Http\Requests\Api\UserRequest;
 
 class UsersController extends Controller
 {
